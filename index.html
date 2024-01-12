@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Hondenschool Rattaplan</title>
     <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
         .img-container {
             text-align: center;
             position: relative;
@@ -13,30 +17,35 @@
         }
 
         img {
-            width: auto;
+            max-width: 100%;
             height: auto;
+            display: block; /* Remove extra space below the image */
+            margin: 0 auto; /* Center the image */
         }
 
         /* Styling for the text overlay */
         .overlay-text {
             position: absolute;
-            top: 50px; /* Adjust the top position as needed */
-            left: 50px; /* Adjust the left position as needed */
+            top: 5%; /* Adjust the top position as needed */
+            left: 5%; /* Adjust the left position as needed */
             color: white; /* Text color */
-            font-size: 18px; /* Text size */
+            font-size: 4vw; /* Responsive font size based on viewport width */
             font-family: Arial, sans-serif; /* Font family */
+        }
+
+        @media screen and (max-width: 600px) {
+            .overlay-text {
+                font-size: 8vw; /* Adjust font size for smaller screens */
+            }
         }
     </style>
 </head>
 <body>
-    <center>
-        <div class="img-container">
-            <img src="images/rattaplan.png" alt="Hondenschool Rattaplan">
-
-            <div class="overlay-text">
-                Testing something
-            </div>
+    <div class="img-container">
+        <img src="images/rattaplan.png" alt="Hondenschool Rattaplan">
+        <div class="overlay-text">
+            Testing something
         </div>
-    </center>
+    </div>
 </body>
 </html>
