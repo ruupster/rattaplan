@@ -9,13 +9,6 @@ body {
     height: 100vh; /* 100% of the viewport height */
 }
 
-/* Positioning the container relative to the image */
-.img-container {
-    text-align: center;
-    position: relative;
-    display: inline-block;
-}
-
 img {
     max-width: 100%;
     height: auto;
