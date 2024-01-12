@@ -21,12 +21,12 @@ body, html {
 
 .overlay-container {
     position: absolute;
-    top: 10%; /* Adjust the top position as needed */
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
-    width: 80%; /* Adjust the width as needed */
     color: #000000; /* Black text color */
+    width: 80%; /* Adjust the width as needed */
 }
 
 .overlay-text h1 {
