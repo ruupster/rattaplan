@@ -2,18 +2,18 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Adjusted to start from the top */
+    justify-content: flex-start;
     height: 100vh;
 }
 
 .corner-images {
     position: fixed;
-    max-width: 20%; /* Adjust the maximum width of corner images */
-    max-height: 20%; /* Adjust the maximum height of corner images */
+    max-width: 20%;
+    max-height: 20%;
 }
 
 .top-left {
@@ -37,11 +37,11 @@ body {
 }
 
 .smaller-font {
-    font-size: 0.8em; /* Adjust the font size for the smaller font line */
+    font-size: 0.8em;
 }
 
 header {
-    margin-top: 5%; /* Adjusted margin for the header */
+    margin-top: 5%;
 }
 
 .header-text {
@@ -51,15 +51,27 @@ header {
 .center-text {
     text-align: center;
     font-size: 2em;
-    margin: 20px; /* Adjust margin as needed */
+    margin: 20px;
 }
 
 footer {
-    margin-top: auto; /* Push the footer to the bottom */
-    margin-bottom: 5%; /* Adjusted margin for the footer */
+    margin-top: auto;
+    margin-bottom: 5%;
 }
 
 .footer-text {
     font-size: 1em;
     text-align: center;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .corner-images {
+        display: none; /* Hide corner images on smaller screens */
+    }
+
+    .center-text {
+        position: relative; /* Set text to be in front of the images */
+        z-index: 1; /* Ensure text is in front of the images */
+    }
 }
