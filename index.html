@@ -1,23 +1,44 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>
-		Hondenschool Rattaplan
-	</title>
-<style>
-.img-container {
-        text-align: center;
-      }
-img {
-    width: auto;
-    height: auto;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hondenschool Rattaplan</title>
+    <style>
+        .img-container {
+            text-align: center;
+            position: relative;
+            display: inline-block;
+        }
+
+        img {
+            width: auto;
+            height: auto;
+        }
+
+        /* Styling for the text overlay */
+        .overlay-text {
+            position: absolute;
+            top: 50px; /* Adjust the top position as needed */
+            left: 50px; /* Adjust the left position as needed */
+            color: white; /* Text color */
+            font-size: 18px; /* Text size */
+            font-family: Arial, sans-serif; /* Font family */
+        }
+    </style>
 </head>
 <body>
-<center>
-<div class="img-container">
-<img src="rattaplan.png">
-</div>
-</center>
+    <center>
+        <div class="img-container">
+            <!-- Your image goes here -->
+            <img src="rattaplan.png" alt="Hondenschool Rattaplan">
+
+            <!-- Text overlay -->
+            <div class="overlay-text">
+                Your Text Here
+            </div>
+        </div>
+    </center>
 </body>
 </html>
