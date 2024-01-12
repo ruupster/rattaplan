@@ -14,6 +14,7 @@ body {
     position: fixed;
     max-width: 20%;
     max-height: 20%;
+    z-index: 0; /* Set a lower z-index for the images */
 }
 
 .top-left {
@@ -38,6 +39,7 @@ body {
 
 .smaller-font {
     font-size: 0.8em;
+    z-index: 1; /* Set a higher z-index for the text */
 }
 
 header {
@@ -62,16 +64,4 @@ footer {
 .footer-text {
     font-size: 1em;
     text-align: center;
-}
-
-/* Media query for smaller screens */
-@media only screen and (max-width: 600px) {
-    .corner-images {
-        display: none; /* Hide corner images on smaller screens */
-    }
-
-    .center-text {
-        position: relative; /* Set text to be in front of the images */
-        z-index: 1; /* Ensure text is in front of the images */
-    }
 }
