@@ -39,8 +39,7 @@ body {
 
 .smaller-font {
     font-size: 1em;
-    position: relative; /* Ensure a stacking context for z-index to work */
-    z-index: 2; /* Set a higher z-index for the text */
+    position: relative; /* Ensure a stacking context for relative positioning */
 }
 
 header {
@@ -49,6 +48,7 @@ header {
 
 .header-text {
     font-size: 2em;
+    position: relative; /* Ensure a stacking context for relative positioning */
 }
 
 .center-text {
@@ -56,8 +56,7 @@ header {
     font-size: 2em;
     margin: 20px;
     margin-top: 5%;
-    position: relative; /* Ensure a stacking context for z-index to work */
-    z-index: 2; /* Set a higher z-index for the text */
+    position: relative; /* Ensure a stacking context for relative positioning */
 }
 
 footer {
@@ -68,4 +67,5 @@ footer {
 .footer-text {
     font-size: 1em;
     text-align: center;
+    position: relative; /* Ensure a stacking context for relative positioning */
 }
