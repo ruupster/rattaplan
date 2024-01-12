@@ -6,16 +6,15 @@ body, html {
 
 .background-container {
     position: relative;
-    width: 100%;
-    max-height: 100vh;
+    width: 80%; /* Adjust the width as needed */
+    max-height: 80vh; /* Adjust the max height as needed */
     overflow: hidden;
+    margin: auto; /* Center the container */
 }
 
 .background-image {
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
@@ -30,10 +29,10 @@ body, html {
 }
 
 .overlay-text h1 {
-    font-size: 3vw; /* Adjust heading font size responsively */
+    font-size: 2em; /* Adjust heading font size */
     margin-bottom: 10px;
 }
 
 .overlay-text p {
-    font-size: 1.5vw; /* Adjust paragraph font size responsively */
+    font-size: 1em; /* Adjust paragraph font size */
 }
