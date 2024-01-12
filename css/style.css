@@ -1,17 +1,36 @@
 /* styles.css */
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /* Positioning the container relative to the image */
-.image-container {
+.img-container {
+    text-align: center;
     position: relative;
     display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image */
 }
 
 /* Styling for the text overlay */
 .overlay-text {
     position: absolute;
-    top: 50px; /* Adjust the top position as needed */
-    left: 50px; /* Adjust the left position as needed */
-    color: black; /* Text color */
-    font-size: 18px; /* Text size */
+    top: 5%; /* Adjust the top position as needed */
+    left: 5%; /* Adjust the left position as needed */
+    color: rgb(0, 0, 0); /* Text color */
+    font-size: 4vw; /* Responsive font size based on viewport width */
     font-family: Arial, sans-serif; /* Font family */
-} 
+}
+
+@media screen and (max-width: 600px) {
+    .overlay-text {
+        font-size: 8vw; /* Adjust font size for smaller screens */
+    }
+}
