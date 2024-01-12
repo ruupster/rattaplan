@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>
+		Hondenschool Rattaplan
+	</title>
+<style>
+.img-container {
+        text-align: center;
+      }
+img {
+    width: 100%;
+    height: auto;
+}
+</style>
+</head>
+<body>
+<center>
+<div class="img-container">
+<img src="rattaplan.png">
+</div>
+</center>
+</body>
+</html>
