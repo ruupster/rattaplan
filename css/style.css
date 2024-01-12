@@ -19,5 +19,23 @@ body, html {
     max-height: 100%;
     width: auto;
     height: auto;
-    object-fit: contain; /* You can use 'cover' if you prefer a different behavior */
+    object-fit: contain;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 20px; /* Adjust the top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #000000; /* Black text color */
+}
+
+.overlay-text h1 {
+    font-size: 36px; /* Adjust heading font size */
+    margin-bottom: 10px;
+}
+
+.overlay-text p {
+    font-size: 18px; /* Adjust paragraph font size */
 }
