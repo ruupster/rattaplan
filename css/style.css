@@ -11,7 +11,7 @@
     position: absolute;
     top: 50px; /* Adjust the top position as needed */
     left: 50px; /* Adjust the left position as needed */
-    color: rgb(0, 0, 0); /* Text color */
+    color: black; /* Text color */
     font-size: 18px; /* Text size */
     font-family: Arial, sans-serif; /* Font family */
 } 
