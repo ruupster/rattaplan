@@ -1,0 +1,17 @@
+/* styles.css */
+
+/* Positioning the container relative to the image */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Styling for the text overlay */
+.overlay-text {
+    position: absolute;
+    top: 50px; /* Adjust the top position as needed */
+    left: 50px; /* Adjust the left position as needed */
+    color: white; /* Text color */
+    font-size: 18px; /* Text size */
+    font-family: Arial, sans-serif; /* Font family */
+} 
