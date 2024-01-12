@@ -8,6 +8,7 @@ body {
     align-items: center;
     height: 100vh; /* 100% of the viewport height */
     background: url('../images/rattaplan-hs.png') center/cover no-repeat; /* Set background image */
+    background-size: 80% 80%; /* Adjust the background size */
 }
 
 .img-container {
