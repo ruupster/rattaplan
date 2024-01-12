@@ -1,4 +1,4 @@
-/* styles.css */
+/* style.css */
 
 body {
     margin: 0;
@@ -7,29 +7,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* 100% of the viewport height */
+    background: url('../images/rattaplan-hs.png') center/cover no-repeat; /* Set background image */
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    display: block; /* Remove extra space below the image */
-    margin: 0 auto; /* Center the image */
+.img-container {
+    text-align: center;
+    color: white; /* Set the text color */
 }
 
-.overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black; /* Set the text color */
-}
-
-.overlay-text h1 {
+h1 {
     margin: 0; /* Remove default margin */
 }
 
 @media screen and (max-width: 600px) {
-    .overlay-text h1 {
+    h1 {
         font-size: 8vw; /* Adjust font size for smaller screens */
     }
 }
