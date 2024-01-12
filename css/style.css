@@ -28,7 +28,6 @@ body, html {
     text-align: center;
     color: #000000; /* Black text color */
     width: 80%; /* Adjust the width as needed */
-    max-height: 80vh; /* Set a maximum height */
 }
 
 .overlay-text h1 {
