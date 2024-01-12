@@ -16,23 +16,23 @@ body {
 }
 
 .top-left {
-    top: 0;
-    left: 0;
+    top: 10%;
+    left: 5%;
 }
 
 .top-right {
-    top: 0;
-    right: 0;
+    top: 10%;
+    right: 5%;
 }
 
 .bottom-left {
-    bottom: 0;
-    left: 0;
+    bottom: 10%;
+    left: 5%;
 }
 
 .bottom-right {
-    bottom: 0;
-    right: 0;
+    bottom: 10%;
+    right: 5%;
 }
 
 .center-text {
