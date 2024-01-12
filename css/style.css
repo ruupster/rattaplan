@@ -38,12 +38,12 @@ body {
 }
 
 .smaller-font {
-    font-size: 0.8em;
+    font-size: 1em;
     z-index: 1; /* Set a higher z-index for the text */
 }
 
 header {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .header-text {
