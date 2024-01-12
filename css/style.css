@@ -14,7 +14,7 @@ body {
     position: fixed;
     max-width: 20%;
     max-height: 20%;
-    z-index: 0; /* Set a lower z-index for the images */
+    z-index: 1; /* Set a higher z-index for the images */
 }
 
 .top-left {
@@ -39,7 +39,8 @@ body {
 
 .smaller-font {
     font-size: 1em;
-    z-index: 1; /* Set a higher z-index for the text */
+    position: relative; /* Ensure a stacking context for z-index to work */
+    z-index: 2; /* Set a higher z-index for the text */
 }
 
 header {
@@ -55,6 +56,8 @@ header {
     font-size: 2em;
     margin: 20px;
     margin-top: 5%;
+    position: relative; /* Ensure a stacking context for z-index to work */
+    z-index: 2; /* Set a higher z-index for the text */
 }
 
 footer {
