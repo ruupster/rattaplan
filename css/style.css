@@ -31,6 +31,10 @@ img {
     color: white; /* Set the text color */
 }
 
+.overlay-text h1 {
+    margin: 0; /* Remove default margin */
+}
+
 @media screen and (max-width: 600px) {
     .overlay-text h1 {
         font-size: 8vw; /* Adjust font size for smaller screens */
